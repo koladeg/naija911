@@ -1,0 +1,8 @@
+C:\Users\adminn\Documents\naija911\bin\naija911.dll
+C:\Users\adminn\Documents\naija911\bin\naija911.pdb
+C:\Users\adminn\Documents\naija911\bin\naija911.xml
+C:\Users\adminn\Documents\naija911\obj\Debug\naija911.Resources.resources
+C:\Users\adminn\Documents\naija911\obj\Debug\naija911.vbproj.GenerateResource.Cache
+C:\Users\adminn\Documents\naija911\obj\Debug\naija911.dll
+C:\Users\adminn\Documents\naija911\obj\Debug\naija911.xml
+C:\Users\adminn\Documents\naija911\obj\Debug\naija911.pdb

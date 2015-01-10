@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{2DD10ECE-C490-46FF-BC7C-02E87DB20B93}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>naija911</RootNamespace>
+    <AssemblyName>naija911</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>naija911.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>naija911.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="aboutus.html" />
+    <Content Include="Aedes mosquitoe.jpg" />
+    <Content Include="Anemia.jpg" />
+    <Content Include="Anemia2.jpg" />
+    <Content Include="anemiadialog.html" />
+    <Content Include="animalbitedialog.html" />
+    <Content Include="Arthritis.jpg" />
+    <Content Include="Arthritisdialog.html" />
+    <Content Include="arthritis_basics_NORMAljoint.JPG" />
+    <Content Include="Asthma.jpg" />
+    <Content Include="asthma1.jpg" />
+    <Content Include="asthmadialog.html" />
+    <Content Include="bleeding.jpg" />
+    <Content Include="bleeding1.jpg" />
+    <Content Include="bleeding2.jpg" />
+    <Content Include="bleeding3.jpg" />
+    <Content Include="bleedingdialog.html" />
+    <Content Include="blowani.gif" />
+    <Content Include="breathing.jpg" />
+    <Content Include="breathing1.jpg" />
+    <Content Include="breatingdialog.html" />
+    <Content Include="broken2.jpg" />
+    <Content Include="broken3.jpg" />
+    <Content Include="broken4.jpg" />
+    <Content Include="broken5.jpg" />
+    <Content Include="brokenbonedialog.html" />
+    <Content Include="burns.PNG" />
+    <Content Include="burns1.jpg" />
+    <Content Include="burns2.jpg" />
+    <Content Include="burns3.jpg" />
+    <Content Include="burns4.jpg" />
+    <Content Include="burns5.jpg" />
+    <Content Include="burnsdialog.html" />
+    <Content Include="carrybody.jpg" />
+    <Content Include="carrybody1.jpg" />
+    <Content Include="carrybody2.jpg" />
+    <Content Include="chemical.jpg" />
+    <Content Include="chemical2.jpg" />
+    <Content Include="chemicalburnsdialog.html" />
+    <Content Include="choking.jpg" />
+    <Content Include="choking2.jpg" />
+    <Content Include="chokingdialog.html" />
+    <Content Include="cholera.jpg" />
+    <Content Include="choleradialog.html" />
+    <Content Include="choleraprevention.jpg" />
+    <Content Include="commondiseases.html" />
+    <Content Include="config.xml" />
+    <Content Include="controlbleeding.jpg" />
+    <Content Include="Copy of drowningdialog.html" />
+    <Content Include="cpr.jpg" />
+    <Content Include="cpr2.jpg" />
+    <Content Include="cpr3.jpg" />
+    <Content Include="cprdialog.html" />
+    <Content Include="css\jquery.mobile-1.4.2.css" />
+    <Content Include="css\jquery.mobile-1.4.2.min.css" />
+    <Content Include="cuts2.jpg" />
+    <Content Include="cuts3.jpg" />
+    <Content Include="cuts5.jpg" />
+    <Content Include="cutsdialog.html" />
+    <Content Include="dengue fever rash.JPG" />
+    <Content Include="Dengue fever.jpg" />
+    <Content Include="denguefeverdialog.html" />
+    <Content Include="drown.jpg" />
+    <Content Include="drown2.jpg" />
+    <Content Include="drowningdialog.html" />
+    <Content Include="ear2.jpg" />
+    <Content Include="earinfectiondialog.html" />
+    <Content Include="ear_infedction.gif" />
+    <Content Include="electricshockdialog.html" />
+    <Content Include="handposition.gif" />
+    <Content Include="heartdiseasedialog.html" />
+    <Content Include="heat exhaustion.jpg" />
+    <Content Include="heatexhaustiondialog.html" />
+    <Content Include="helminthiasisdialog.html" />
+    <Content Include="hepatitisadialog.html" />
+    <Content Include="hepatitisedialog.html" />
+    <Content Include="highbloodpresedialog.html" />
+    <Content Include="icon.png" />
+    <Content Include="index.html" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.mobile-1.4.2.js" />
+    <Content Include="js\jquery.mobile-1.4.2.min.js" />
+    <Content Include="lassafeverdialog.html" />
+    <Content Include="leishmaniasisdialog.html" />
+    <Content Include="malaria symptoms.jpg" />
+    <Content Include="malaria trans.jpg" />
+    <Content Include="malaria.html" />
+    <Content Include="meningococcaldialog.html" />
+    <Content Include="moving body.jpg" />
+    <Content Include="onchocerciasisdialog.html" />
+    <Content Include="osteoporosisdialog.html" />
+    <Content Include="penetratingobjdialog.html" />
+    <Content Include="pneumonia.jpg" />
+    <Content Include="pneumonia1.jpg" />
+    <Content Include="pneumoniadialog.html" />
+    <Content Include="poisoningdialog.html" />
+    <Content Include="poliodialog.html" />
+    <Content Include="pumpani.gif" />
+    <Content Include="rabiesdialog.html" />
+    <Content Include="schistosomiasisdialog.html" />
+    <Content Include="severdbodydialog.html" />
+    <Content Include="severeburns.html" />
+    <Content Include="shock.jpg" />
+    <Content Include="shock2.jpg" />
+    <Content Include="shockdialog.html" />
+    <Content Include="sicklecelldialog.html" />
+    <Content Include="sleepingsicknessdialog.html" />
+    <Content Include="splash_icon.png" />
+    <Content Include="splinterdialog.html" />
+    <Content Include="splinters.jpg" />
+    <Content Include="splinters2.jpg" />
+    <Content Include="stidialog.html" />
+    <Content Include="stingsdialog.html" />
+    <Content Include="strokedialog.html" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="sunstrokedialog.html" />
+    <Content Include="TB.jpg" />
+    <Content Include="TB1.jpg" />
+    <Content Include="TB2.jpg" />
+    <Content Include="trachomadialog.html" />
+    <Content Include="transportdialog.html" />
+    <Content Include="tuberculosisdialog.html" />
+    <Content Include="typhoiddialog.html" />
+    <Content Include="unconsciousnessdialog.html" />
+    <Content Include="wounddialog.html" />
+    <Content Include="yellowfever.jpg" />
+    <Content Include="yellowfeverdialog.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.designer.vb">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About.aspx.vb">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Site.Master.designer.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="jquery.mobile-1.4.2.min.map" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59758</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
